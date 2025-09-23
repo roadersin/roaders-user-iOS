@@ -1,0 +1,1151 @@
+{
+    "appName": "Roaders",
+    "@appName": {
+        "description": "This is the name of the app",
+        "type": "string"
+    },
+    "selectLanguage": "Select your Language",
+    "@selectLanguage": {
+        "description": "This is the label for the language selection dropdown",
+        "type": "string"
+    },
+    "welcome": "Welcome!",
+    "@welcome": {
+        "description": "This is the welcome message",
+        "type": "string"
+    },
+    "tagLine": "Speedy Delivery, Your Route to Convenience",
+    "@tagLine": {
+        "description": "This is the tagline of the app",
+        "type": "string"
+    },
+    "phone": "Phone Number",
+    "@phone": {
+        "description": "This is the label for the phone number input field",
+        "type": "string"
+    },
+    "phoneHint": "Enter your phone number",
+    "@phoneHint": {
+        "description": "This is the hint text for the phone number input field",
+        "type": "string"
+    },
+    "phoneRequired": "Phone number is required",
+    "@phoneRequired": {
+        "description": "This is the error message when the phone number is required",
+        "type": "string"
+    },
+    "phoneInvalid": "Phone Number should be 10 digits",
+    "@phoneInvalid": {
+        "description": "This is the error message when the phone number is invalid",
+        "type": "string"
+    },
+    "email": "Email",
+    "@email": {
+        "description": "This is the label for the email input field",
+        "type": "string"
+    },
+    "emailHint": "Enter your email address",
+    "@emailHint": {
+        "description": "This is the hint text for the email input field",
+        "type": "string"
+    },
+    "emailRequired": "Email is required",
+    "@emailRequired": {
+        "description": "This is the error message when the email is required",
+        "type": "string"
+    },
+    "emailInvalid": "Email is invalid",
+    "@emailInvalid": {
+        "description": "This is the error message when the email is invalid",
+        "type": "string"
+    },
+    "requestOtp": "Request OTP",
+    "@requestOtp": {
+        "description": "This is the button text to request OTP",
+        "type": "string"
+    },
+    "enterDetails": "Please Enter your details below",
+    "@enterDetails": {
+        "description": "This is the message to enter details",
+        "type": "string"
+    },
+    "nameHint": "Enter your name",
+    "@nameHint": {
+        "description": "This is the hint text for the name input field",
+        "type": "string"
+    },
+    "nameRequired": "Name is required for ",
+    "@nameRequired": {
+        "description": "This is the error message when the name is required",
+        "type": "string"
+    },
+    "contactSupport": "Contact Support",
+    "@contactSupport": {
+        "description": "This is the button text to contact support",
+        "type": "string"
+    },
+    "account": "Account",
+    "@account": {
+        "description": "This is the label for the account section",
+        "type": "string"
+    },
+    "hello": "Hello",
+    "@hello": {
+        "description": "This is the greeting message",
+        "type": "string"
+    },
+    "editProfile": "Edit Profile",
+    "@editProfile": {
+        "description": "This is Edit Profile label",
+        "type": "string"
+    },
+    "helpAndSupport": "Help & Support",
+    "@helpAndSupport": {
+        "description": "This is the label for the help and support section",
+        "type": "string"
+    },
+    "termsAndConditions": "Terms & Conditions",
+    "@termsAndConditions": {
+        "description": "This is the label for the terms and conditions section",
+        "type": "string"
+    },
+    "userEligibility": "1. User Eligibility",
+    "@userEligibility": {
+        "description": "Title for the user eligibility section in the terms",
+        "type": "string"
+    },
+    "userEligibilityDetails": "1.1. You must be at least 18 years old to use the App.\n1.2. By using the App, you represent and warrant that you have the legal right, authority, and capacity to enter into these Terms and comply with all applicable laws and regulations.",
+    "@userEligibilityDetails": {
+        "description": "Details regarding user eligibility requirements",
+        "type": "string"
+    },
+    "accountRegistration": "2. Account Registration",
+    "@accountRegistration": {
+        "description": "Title for the account registration section in the terms",
+        "type": "string"
+    },
+    "accountRegistrationDetails": "2.1. To use the App, you must register and create an account.\n2.2. You agree to provide accurate, current, and complete information during the registration process.\n2.3. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.\n2.4. You agree to notify us immediately of any unauthorized use of your account.",
+    "@accountRegistrationDetails": {
+        "description": "Details about the account registration process",
+        "type": "string"
+    },
+    "servicesProvided": "3. Services Provided",
+    "@servicesProvided": {
+        "description": "Title for the services provided section in the terms",
+        "type": "string"
+    },
+    "servicesProvidedDetails": "3.1. Roaders connects users (\"Customers\") with drivers (\"Partners\") for the transportation of goods.\n3.2. We are a platform that facilitates the connection between Customers and Partners; we do not own or operate the vehicles.\n3.3. Services provided by Partners are subject to availability and may vary based on location, vehicle type, and other factors.",
+    "@servicesProvidedDetails": {
+        "description": "Details regarding the services provided by Roaders",
+        "type": "string"
+    },
+    "bookingAndPayment": "4. Booking and Payment",
+    "@bookingAndPayment": {
+        "description": "Title for the booking and payment section in the terms",
+        "type": "string"
+    },
+    "bookingAndPaymentDetails": "4.1. Customers can book transportation services through the App by providing necessary details, including pickup and drop-off locations, type of goods, and preferred vehicle type.\n4.2. The cost of the service will be calculated based on distance, time, and vehicle type.\n4.3. Customers must pay for the services through the payment methods available in the App.\n4.4. Payments are non-refundable, except as specified in our Cancellation Policy.",
+    "@bookingAndPaymentDetails": {
+        "description": "Details regarding booking and payment procedures",
+        "type": "string"
+    },
+    "cancellationPolicy": "5. Cancellation Policy",
+    "@cancellationPolicy": {
+        "description": "Title for the cancellation policy section in the terms",
+        "type": "string"
+    },
+    "cancellationPolicyDetails": "5.1. Customers may cancel their booking before a Partner is assigned without incurring any charges.\n5.2. If a booking is canceled after a Partner has been assigned, a cancellation fee may apply.\n5.3. Partners have the right to cancel bookings under certain circumstances, such as vehicle unavailability, unsafe conditions, or other unforeseen issues.",
+    "@cancellationPolicyDetails": {
+        "description": "Details of the cancellation policy",
+        "type": "string"
+    },
+    "userResponsibilities": "6. User Responsibilities",
+    "@userResponsibilities": {
+        "description": "Title for the user responsibilities section in the terms",
+        "type": "string"
+    },
+    "userResponsibilitiesDetails": "6.1. Customers are responsible for ensuring that all goods being transported comply with local laws and regulations.\n6.2. Customers must ensure that goods are properly packaged and do not pose a risk to the vehicle, Partner, or public safety.\n6.3. Partners must provide safe and reliable transportation services and comply with all applicable traffic laws and regulations.\n6.4. Both Customers and Partners must treat each other with respect and courtesy.",
+    "@userResponsibilitiesDetails": {
+        "description": "Details regarding user responsibilities",
+        "type": "string"
+    },
+    "prohibitedActivities": "7. Prohibited Activities",
+    "@prohibitedActivities": {
+        "description": "Title for the prohibited activities section in the terms",
+        "type": "string"
+    },
+    "prohibitedActivitiesDetails": "7.1. You may not use the App for any illegal or unauthorized purpose.\n7.2. You may not interfere with or disrupt the operation of the App or its servers.\n7.3. You may not engage in any activity that harms or threatens the safety of other users or the public.",
+    "@prohibitedActivitiesDetails": {
+        "description": "Details regarding prohibited activities",
+        "type": "string"
+    },
+    "limitationOfLiability": "8. Limitation of Liability",
+    "@limitationOfLiability": {
+        "description": "Title for the limitation of liability section in the terms",
+        "type": "string"
+    },
+    "limitationOfLiabilityDetails": "8.1. Roaders is not responsible for any damage, loss, or theft of goods during transportation.\n8.2. Roaders is not liable for any injuries, accidents, or damages that occur during the provision of services by Partners.\n8.3. Roaders does not guarantee the availability, quality, or timeliness of services provided by Partners.",
+    "@limitationOfLiabilityDetails": {
+        "description": "Details regarding the limitation of liability",
+        "type": "string"
+    },
+    "indemnification": "9. Indemnification",
+    "@indemnification": {
+        "description": "Title for the indemnification section in the terms",
+        "type": "string"
+    },
+    "indemnificationDetails": "9.1. You agree to indemnify and hold Roaders, its affiliates, and their respective officers, directors, employees, and agents harmless from any claims, losses, damages, liabilities, and expenses arising out of your use of the App, violation of these Terms, or infringement of any rights of third parties.",
+    "@indemnificationDetails": {
+        "description": "Details of the indemnification clause",
+        "type": "string"
+    },
+    "intellectualProperty": "10. Intellectual Property",
+    "@intellectualProperty": {
+        "description": "Title for the intellectual property section in the terms",
+        "type": "string"
+    },
+    "intellectualPropertyDetails": "10.1. All content and materials in the App, including text, graphics, logos, and software, are the property of Roaders or its licensors and are protected by intellectual property laws.\n10.2. You may not use, reproduce, distribute, or create derivative works based on the App's content without our prior written consent.",
+    "@intellectualPropertyDetails": {
+        "description": "Details regarding intellectual property rights",
+        "type": "string"
+    },
+    "termination": "11. Termination",
+    "@termination": {
+        "description": "Title for the termination section in the terms",
+        "type": "string"
+    },
+    "terminationDetails": "11.1. We reserve the right to suspend or terminate your account and access to the App at any time, with or without cause or notice.\n11.2. You may terminate your account at any time by following the account deletion procedures in the App.",
+    "@terminationDetails": {
+        "description": "Details regarding termination of the agreement",
+        "type": "string"
+    },
+    "modificationsToTheTerms": "12. Modifications to the Terms",
+    "@modificationsToTheTerms": {
+        "description": "Title for the modifications section in the terms",
+        "type": "string"
+    },
+    "modificationsToTheTermsDetails": "12.1. We may update these Terms from time to time. Any changes will be effective upon posting the revised Terms in the App.\n12.2. Your continued use of the App after the effective date of the revised Terms constitutes your acceptance of the changes.",
+    "@modificationsToTheTermsDetails": {
+        "description": "Details about how the terms can be modified",
+        "type": "string"
+    },
+    "governingLaw": "13. Governing Law",
+    "@governingLaw": {
+        "description": "Title for the governing law section in the terms",
+        "type": "string"
+    },
+    "governingLawDetails": "13.1. These Terms shall be governed by and construed in accordance with the laws of India, without regard to its conflict of laws principles.",
+    "@governingLawDetails": {
+        "description": "Details about the governing law of the agreement",
+        "type": "string"
+    },
+    "disputeResolution": "14. Dispute Resolution",
+    "@disputeResolution": {
+        "description": "Title for the dispute resolution section in the terms",
+        "type": "string"
+    },
+    "disputeResolutionDetails": "14.1. Any disputes arising out of or in connection with these Terms or your use of the App shall be resolved through binding arbitration in accordance with the rules of the Arbitration and Conciliation Act, 1996.\n14.2. The arbitration shall take place in Mumbai, India, and the language of arbitration shall be English.",
+    "@disputeResolutionDetails": {
+        "description": "Details regarding dispute resolution process",
+        "type": "string"
+    },
+    "contactInformation": "15. Contact Information",
+    "@contactInformation": {
+        "description": "Title for the contact information section in the terms",
+        "type": "string"
+    },
+    "contactInformationDetails": "15.1. If you have any questions or concerns about these Terms, please contact us at:\nEmail: help.roaders.in@gmail.com\nPhone: +91 99693 93190\nAddress: Mumbai, India",
+    "@contactInformationDetails": {
+        "description": "Details of how to contact Roaders for any concerns",
+        "type": "string"
+    },
+    "accountSettings": "Account Settings",
+    "@accountSettings": {
+        "description": "This is the label for the account settings section",
+        "type": "string"
+    },
+    "logout": "Logout",
+    "@logout": {
+        "description": "This is the button text to log out",
+        "type": "string"
+    },
+    "finalStep": "Final Step",
+    "@finalStep": {
+        "description": "This is the label for the final step",
+        "type": "string"
+    },
+    "name": "Name",
+    "@name": {
+        "description": "This is the label for the name input field",
+        "type": "string"
+    },
+    "address": "Address",
+    "@address": {
+        "description": "This is the label for the address input field",
+        "type": "string"
+    },
+    "allFieldsRequired": "Please fill all the fields",
+    "@allFieldsRequired": {
+        "description": "This is the error message when all fields are required",
+        "type": "string"
+    },
+    "submit": "Submit",
+    "@submit": {
+        "description": "This is the button text to submit the form",
+        "type": "string"
+    },
+    "applyCoupon": "Apply Coupon",
+    "@applyCoupon": {
+        "description": "This is the button text to apply a coupon",
+        "type": "string"
+    },
+    "noApplicableCoupons": "No applicable coupons",
+    "@noApplicableCoupons": {
+        "description": "This is the message when there are no applicable coupons",
+        "type": "string"
+    },
+    "discountOnFirstOrder": "Discount on first order",
+    "@discountOnFirstOrder": {
+        "description": "This is the message for discount on first order",
+        "type": "string"
+    },
+    "discountOnTenthOrder": "Discount on 10th orders",
+    "@discountOnTenthOrder": {
+        "description": "This is the message for discount on 10 orders",
+        "type": "string"
+    },
+    "bookingReceipt": "Booking Receipt",
+    "@bookingReceipt": {
+        "description": "This is the label for the booking receipt",
+        "type": "string"
+    },
+    "profileUpdated": "Profile updated successfully",
+    "@profileUpdated": {
+        "description": "This is the message when the profile is updated successfully",
+        "type": "string"
+    },
+    "save": "Save",
+    "@save": {
+        "description": "This is the button text to save changes",
+        "type": "string"
+    },
+    "pickup": "Pickup",
+    "@pickup": {
+        "description": "This is the label for the pickup location",
+        "type": "string"
+    },
+    "searchPickup": "Search Pickup Location...",
+    "@searchPickup": {
+        "description": "This is the hint text for the pickup location search",
+        "type": "string"
+    },
+    "bookNow": "Book Now",
+    "@bookNow": {
+        "description": "This is the button text to book now",
+        "type": "string"
+    },
+    "offer": "Offer",
+    "@offer": {
+        "description": "This is the label for the offer section",
+        "type": "string"
+    },
+    "home": "Home",
+    "@home": {
+        "description": "This is the label for the home section",
+        "type": "string"
+    },
+    "wallet": "Wallet",
+    "@wallet": {
+        "description": "This is the label for the wallet section",
+        "type": "string"
+    },
+    "orders": "Orders",
+    "@orders": {
+        "description": "This is the label for the orders section",
+        "type": "string"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "This is the label for the profile section",
+        "type": "string"
+    },
+    "location": "Location",
+    "@location": {
+        "description": "This is the label for the location section",
+        "type": "string"
+    },
+    "setS": "Set",
+    "@setS": {
+        "description": "This is the button text to set the location",
+        "type": "string"
+    },
+    "setAs": "Set as",
+    "@setAs": {
+        "description": "This is the button text to set as",
+        "type": "string"
+    },
+    "goodsDelivered": "Your goods will be delivered here",
+    "@goodsDelivered": {
+        "description": "This is the message for goods delivery location",
+        "type": "string"
+    },
+    "continueS": "Continue",
+    "@continueS": {
+        "description": "This is the button text to continue",
+        "type": "string"
+    },
+    "noOrders": "No orders found",
+    "@noOrders": {
+        "description": "This is the message when no orders are found",
+        "type": "string"
+    },
+    "stop": "Stop",
+    "@stop": {
+        "description": "This is the label for the stop section",
+        "type": "string"
+    },
+    "viewBooking": "View Booking",
+    "@viewBooking": {
+        "description": "This is the button text to view booking details",
+        "type": "string"
+    },
+    "enterOTP": "Enter OTP",
+    "@enterOTP": {
+        "description": "This is the label for the OTP input field",
+        "type": "string"
+    },
+    "weHaveSent": "We have sent you an OTP to your email",
+    "@weHaveSent": {
+        "description": "This is the message indicating that an OTP has been sent",
+        "type": "string"
+    },
+    "verify": "Verify",
+    "@verify": {
+        "description": "This is the button text to verify the OTP",
+        "type": "string"
+    },
+    "paymentSuccess": "Payment Successful",
+    "@paymentSuccess": {
+        "description": "This is the message when the payment is successful",
+        "type": "string"
+    },
+    "walletTopupSuccess": "Wallet Top-up Successful",
+    "@walletTopupSuccess": {
+        "description": "This is the message when the wallet top-up is successful",
+        "type": "string"
+    },
+    "externalWallet": "External Wallet Selected",
+    "@externalWallet": {
+        "description": "This is the message when an external wallet is selected",
+        "type": "string"
+    },
+    "paymentFailed": "Payment Failed",
+    "@paymentFailed": {
+        "description": "This is the message when the payment fails",
+        "type": "string"
+    },
+    "cash": "Cash",
+    "@cash": {
+        "description": "This is the label for cash payment option",
+        "type": "string"
+    },
+    "payOnline": "Pay Online",
+    "@payOnline": {
+        "description": "This is the label for online payment option",
+        "type": "string"
+    },
+    "reviewBooking": "Review Booking",
+    "@reviewBooking": {
+        "description": "This is the label for the review booking section",
+        "type": "string"
+    },
+    "addressDetails": "Address Details",
+    "@addressDetails": {
+        "description": "This is the label for the address details section",
+        "type": "string"
+    },
+    "viewAddressDetails": "View Address Details",
+    "@viewAddressDetails": {
+        "description": "This is the button text to view address details",
+        "type": "string"
+    },
+    "freeFifty": "Free 50 mins loading unloading time",
+    "@freeFifty": {
+        "description": "This is the message for free loading and unloading time",
+        "type": "string"
+    },
+    "offersAndDiscounts": "Offers and Discounts",
+    "@offersAndDiscounts": {
+        "description": "This is the label for offers and discounts section",
+        "type": "string"
+    },
+    "coupon": "Coupon",
+    "@coupon": {
+        "description": "This is the label for the coupon section",
+        "type": "string"
+    },
+    "fareSummary": "Fare Summary",
+    "@fareSummary": {
+        "description": "This is the label for the fare summary section",
+        "type": "string"
+    },
+    "tripFare": "Trip Fare (incl. Toll)",
+    "@tripFare": {
+        "description": "This is the label for the trip fare section",
+        "type": "string"
+    },
+    "netFare": "Net Fare",
+    "@netFare": {
+        "description": "This is the label for the net fare section",
+        "type": "string"
+    },
+    "readBeforeYouBook": "Read Before You Book",
+    "@readBeforeYouBook": {
+        "description": "This is the label for the read before you book section",
+        "type": "string"
+    },
+    "fareDetails": "• Fare doesn't include labour charges for loading & unloading.\n• Fare includes 50 mins free loading/unloading time.\n• ₹3.0/min for additional loading/unloading time.\n• Fare may change if route or location changes.\n• Parking charges to be paid by customer.\n• Fare includes toll and permit charges, if any.\n• We don't allow overloading.",
+    "@fareDetails": {
+        "description": "This is the detailed breakdown of the fare, including the loading/unloading time, charges, and other conditions."
+    },
+    "choosePaymentMethod": "Choose Payment Method",
+    "@choosePaymentMethod": {
+        "description": "This is the label for the choose payment method section",
+        "type": "string"
+    },
+    "searchPlace": "Search Place...",
+    "@searchPlace": {
+        "description": "This is the hint text for the place search",
+        "type": "string"
+    },
+    "success": "Success",
+    "@success": {
+        "description": "This is the label for success messages",
+        "type": "string"
+    },
+    "driverFound": "Driver Found!",
+    "@driverFound": {
+        "description": "This is the message when a driver is found",
+        "type": "string"
+    },
+    "ok": "OK",
+    "@ok": {
+        "description": "This is the button text for OK",
+        "type": "string"
+    },
+    "tripCancelled": "Trip Cancelled",
+    "@tripCancelled": {
+        "description": "This is the message when the trip is cancelled",
+        "type": "string"
+    },
+    "searchingDriver": "Searching for Driver...",
+    "@searchingDriver": {
+        "description": "This is the message when searching for a driver",
+        "type": "string"
+    },
+    "tripWasCancelledByYou": "Trip was cancelled by you",
+    "@tripWasCancelledByYou": {
+        "description": "This is the message when the trip is cancelled by the user",
+        "type": "string"
+    },
+    "cancelTrip": "Cancel Trip",
+    "@cancelTrip": {
+        "description": "This is the button text to cancel the trip",
+        "type": "string"
+    },
+    "proceed": "Proceed",
+    "@proceed": {
+        "description": "This is the button text to proceed",
+        "type": "string"
+    },
+    "selectVehicle": "Select Vehicle",
+    "@selectVehicle": {
+        "description": "This is the label for the select vehicle section",
+        "type": "string"
+    },
+    "maximumDistance": "Maximum distance 250Km. Try Outstation",
+    "@maximumDistance": {
+        "description": "This is the message for maximum distance",
+        "type": "string"
+    },
+    "pickupLocation": "Pickup Location",
+    "@pickupLocation": {
+        "description": "This is the label for the pickup location",
+        "type": "string"
+    },
+    "addMutlipleStops": "Add Multiple Stops +",
+    "@addMutlipleStops": {
+        "description": "This is the button text to add multiple stops",
+        "type": "string"
+    },
+    "dropLocation": "Drop Location",
+    "@dropLocation": {
+        "description": "This is the label for the drop location",
+        "type": "string"
+    },
+    "searchDropLocation": "Search Drop Location...",
+    "@searchDropLocation": {
+        "description": "This is the hint text for the drop location search",
+        "type": "string"
+    },
+    "pickupLocationNotSet": "Pickup location not set",
+    "@pickupLocationNotSet": {
+        "description": "This is the message when the pickup location is not set",
+        "type": "string"
+    },
+    "dropLocationNotSet": "Drop location not set",
+    "@dropLocationNotSet": {
+        "description": "This is the message when the drop location is not set",
+        "type": "string"
+    },
+    "getPrice": "Get Price",
+    "@getPrice": {
+        "description": "This is the button text to get the price",
+        "type": "string"
+    },
+    "currentWalletBalance": "Current Wallet Balance",
+    "@currentWalletBalance": {
+        "description": "This is the label for the current wallet balance",
+        "type": "string"
+    },
+    "enterTopUpAmount": "Enter Top-up Amount",
+    "@enterTopUpAmount": {
+        "description": "This is the label for the enter top-up amount section",
+        "type": "string"
+    },
+    "reenterTopUpAmount": "Please Re-enter Top-up Amount",
+    "@reenterTopUpAmount": {
+        "description": "This is the label for re-entering the top-up amount",
+        "type": "string"
+    },
+    "enterNumberGreaterThanZero": "Please enter a number greater than 0",
+    "@enterNumberGreaterThanZero": {
+        "description": "This is the error message when the entered number is not greater than zero",
+        "type": "string"
+    },
+    "topUpWallet": "Top-up Wallet",
+    "@topUpWallet": {
+        "description": "This is the button text to top-up the wallet",
+        "type": "string"
+    },
+    "changeLanguage": "Change Language",
+    "@changeLanguage": {
+        "description": "This is the button text to change the language",
+        "type": "string"
+    },
+    "transactionHistory": "Transaction History",
+    "@transactionHistory": {
+        "description": "This is the label for transaction history",
+        "type": "string"
+    },
+    "all": "All",
+    "@all": {
+        "description": "This is the label for all",
+        "type": "string"
+    },
+    "topUp": "Top Up",
+    "@topUp": {
+        "description": "This is the label for top up",
+        "type": "string"
+    },
+    "commission": "Commission",
+    "@commission": {
+        "description": "This is the label for commission",
+        "type": "string"
+    },
+    "earning": "Earning",
+    "@earning": {
+        "description": "This is the label for earning",
+        "type": "string"
+    },
+    "noTransactionFound": "No Transaction Found",
+    "@noTransactionFound": {
+        "description": "This is the message when no transaction found",
+        "type": "string"
+    },
+    "failed": "Failed",
+    "@failed": {
+        "description": "This is the label for failed",
+        "type": "string"
+    },
+    "pending": "Pending",
+    "@pending": {
+        "description": "This is the label for pending",
+        "type": "string"
+    },
+    "none": "None",
+    "@none": {
+        "description": "This is the label for none",
+        "type": "string"
+    },
+    "day": "Day",
+    "@day": {
+        "description": "This is the label for day",
+        "type": "string"
+    },
+    "week": "Week",
+    "@week": {
+        "description": "This is the label for week",
+        "type": "string"
+    },
+    "month": "Month",
+    "@month": {
+        "description": "This is the label for month",
+        "type": "string"
+    },
+    "summary": "Summary",
+    "@summary": {
+        "description": "This is the label for summary",
+        "type": "string"
+    },
+    "today": "Today",
+    "@today": {
+        "description": "This is the label for today",
+        "type": "string"
+    },
+    "thisWeek": "This Week",
+    "@thisWeek": {
+        "description": "This is the label for this week",
+        "type": "string"
+    },
+    "thisMonth": "This Month",
+    "@thisMonth": {
+        "description": "This is the label for this month",
+        "type": "string"
+    },
+    "thisYear": "This Year",
+    "@thisYear": {
+        "description": "This is the label for this year",
+        "type": "string"
+    },
+    "received": "Received",
+    "@received": {
+        "description": "This is the label for received",
+        "type": "string"
+    },
+    "sent": "Sent",
+    "@sent": {
+        "description": "This is the label for sent",
+        "type": "string"
+    },
+    "net": "Net",
+    "@net": {
+        "description": "This is the label for net",
+        "type": "string"
+    },
+    "transactions": "Transactions",
+    "@transactions": {
+        "description": "This is the label for transactions",
+        "type": "string"
+    },
+    "appExperience": "App Experience",
+    "@appExperience": {
+        "description": "This is the label for app experience",
+        "type": "string"
+    },
+    "suggestions": "Suggestions",
+    "@suggestions": {
+        "description": "This is the label for suggestions",
+        "type": "string"
+    },
+    "other": "Other",
+    "@other": {
+        "description": "This is the label for other",
+        "type": "string"
+    },
+    "pleaseSelectRating": "Please select a rating",
+    "@pleaseSelectRating": {
+        "description": "This is the message for please select rating",
+        "type": "string"
+    },
+    "feedbackSubmissionFailed": "Feedback submission failed, please try again",
+    "@feedbackSubmissionFailed": {
+        "description": "This is the message for feedback submission failed",
+        "type": "string"
+    },
+    "feedbackAndRating": "Feedback and Rating",
+    "@feedbackAndRating": {
+        "description": "This is the label for feedback and rating",
+        "type": "string"
+    },
+    "howWasYourExperience": "How was your experience with Roaders Partner App?",
+    "@howWasYourExperience": {
+        "description": "This is the label for how was your experience",
+        "type": "string"
+    },
+    "whatFeebackAbout": "What is your feedback about?",
+    "@whatFeebackAbout": {
+        "description": "This is the label for what feedback do you have",
+        "type": "string"
+    },
+    "additionalComments": "Additional Comments",
+    "@additionalComments": {
+        "description": "This is the label for additional comments",
+        "type": "string"
+    },
+    "shareYourExperience": "Share your experience or suggestions...",
+    "@shareYourExperience": {
+        "description": "This is the label for share your experience",
+        "type": "string"
+    },
+    "submitFeedback": "Submit Feedback",
+    "@submitFeedback": {
+        "description": "This is the button text to submit feedback",
+        "type": "string"
+    },
+    "thankYouForFeedback": "Thank you for your feedback!",
+    "@thankYouForFeedback": {
+        "description": "This is the message for thank you for feedback",
+        "type": "string"
+    },
+    "feedbackHelpUsImprove": "Your feedback helps us improve our services.",
+    "@feedbackHelpUsImprove": {
+        "description": "This is the message for feedback helps us improve",
+        "type": "string"
+    },
+    "backToHome": "Back to Home",
+    "@backToHome": {
+        "description": "This is the button text to go back to home",
+        "type": "string"
+    },
+    "walletTopUpSuccessful": "Wallet Top-up Successful",
+    "@walletTopUpSuccessful": {
+        "description": "This is the message for wallet top-up successful",
+        "type": "string"
+    },
+    "tryAgain": "Try Again",
+    "@tryAgain": {
+        "description": "This is the button text to try again",
+        "type": "string"
+    },
+    "cancel": "Cancel",
+    "@cancel": {
+        "description": "This is the button text to cancel",
+        "type": "string"
+    },
+    "externalWalletSelected": "External Wallet Selected",
+    "@externalWalletSelected": {
+        "description": "This is the message for external wallet selected",
+        "type": "string"
+    },
+    "booking": "Booking",
+    "@booking": {
+        "description": "This is the label for booking",
+        "type": "string"
+    },
+    "payment": "Payment",
+    "@payment": {
+        "description": "This is the label for payment",
+        "type": "string"
+    },
+    "searchTransaction": "Search Transactions...",
+    "@searchTransaction": {
+        "description": "This is the hint text for the transaction search",
+        "type": "string"
+    },
+    "groupBy": "Group By",
+    "@groupBy": {
+        "description": "This is the label for group by",
+        "type": "string"
+    },
+    "added": "Added",
+    "@added": {
+        "description": "This is the label for added",
+        "type": "string"
+    },
+    "balance": "Balance",
+    "@balance": {
+        "description": "This is the label for balance",
+        "type": "string"
+    },
+    "paymentMethod": "Payment Method",
+    "@paymentMethod": {
+        "description": "This is the label for payment method",
+        "type": "string"
+    },
+    "history": "History",
+    "@history": {
+        "description": "This is the label for history",
+        "type": "string"
+    },
+    "refund": "Refund",
+    "@refund": {
+        "description": "This is the label for refund",
+        "type": "string"
+    },
+    "customerSupport": "Customer Support",
+    "@customerSupport": {
+        "description": "This is the label for customer support",
+        "type": "string"
+    },
+    "searching": "Searching",
+    "@searching": {
+        "description": "This is the label for searching",
+        "type": "string"
+    },
+    "driverAssigned": "Driver Assigned",
+    "@driverAssigned": {
+        "description": "This is the message when a driver is assigned",
+        "type": "string"
+    },
+    "tripStarted": "Trip Started",
+    "@tripStarted": {
+        "description": "This is the message when the trip is started",
+        "type": "string"
+    },
+    "tripEnded": "Trip Ended",
+    "@tripEnded": {
+        "description": "This is the message when the trip is ended",
+        "type": "string"
+    },
+    "reachedPickupLocation": "Reached Pickup Location",
+    "@reachedPickupLocation": {
+        "description": "This is the message when the driver has reached the pickup location",
+        "type": "string"
+    },
+    "reachedDropLocation": "Reached Drop Location",
+    "@reachedDropLocation": {
+        "description": "This is the message when the driver has reached the drop location",
+        "type": "string"
+    },
+    "orderStatus": "Order Status",
+    "@orderStatus": {
+        "description": "This is the label for order status",
+        "type": "string"
+    },
+    "trackOrder": "Track Order",
+    "@trackOrder": {
+        "description": "This is the button text to track the order",
+        "type": "string"
+    },
+    "currentStatus": "Current Status",
+    "@currentStatus": {
+        "description": "This is the label for current status",
+        "type": "string"
+    },
+    "close": "Close",
+    "@close": {
+        "description": "This is the button text to close",
+        "type": "string"
+    },
+    "orderCancelled": "Order Cancelled",
+    "@orderCancelled": {
+        "description": "This is the message when the order is cancelled",
+        "type": "string"
+    },
+    "orderCancelledMsg": "This order has been cancelled and is no longer active.",
+    "@orderCancelledMsg": {
+        "description": "This is the message for order cancelled",
+        "type": "string"
+    },
+    "searchOrders": "Search Orders...",
+    "@searchOrders": {
+        "description": "This is the hint text for the order search",
+        "type": "string"
+    },
+    "filters": "Filters",
+    "@filters": {
+        "description": "This is the label for filters",
+        "type": "string"
+    },
+    "reset": "Reset",
+    "@reset": {
+        "description": "This is the button text to reset filters",
+        "type": "string"
+    },
+    "status": "Status",
+    "@status": {
+        "description": "This is the label for status",
+        "type": "string"
+    },
+    "dateRange": "Date Range",
+    "@dateRange": {
+        "description": "This is the label for date range",
+        "type": "string"
+    },
+    "selectedDates": "Select Dates",
+    "@selectedDates": {
+        "description": "This is the label for selected dates",
+        "type": "string"
+    },
+    "priceRange": "Price Range",
+    "@priceRange": {
+        "description": "This is the label for price range",
+        "type": "string"
+    },
+    "assigned": "Assigned",
+    "@assigned": {
+        "description": "This is the label for assigned",
+        "type": "string"
+    },
+    "atPickup": "At Pickup",
+    "@atPickup": {
+        "description": "This is the label for at pickup",
+        "type": "string"
+    },
+    "atDrop": "At Drop",
+    "@atDrop": {
+        "description": "This is the label for at drop",
+        "type": "string"
+    },
+    "started": "Started",
+    "@started": {
+        "description": "This is the label for started",
+        "type": "string"
+    },
+    "ended": "Ended",
+    "@ended": {
+        "description": "This is the label for ended",
+        "type": "string"
+    },
+    "cancelled": "Cancelled",
+    "@cancelled": {
+        "description": "This is the label for cancelled",
+        "type": "string"
+    },
+    "noOrdersDescription": "You haven't made any bookings yet",
+    "@noOrdersDescription": {
+        "description": "This is the message when no orders are found",
+        "type": "string"
+    },
+    "noMatchingOrders": "No matching orders found",
+    "@noMatchingOrders": {
+        "description": "This is the message when no matching orders are found",
+        "type": "string"
+    },
+    "tryAdjustingFilters": "Try adjusting your filters",
+    "@tryAdjustingFilters": {
+        "description": "This is the message for trying to adjust filters",
+        "type": "string"
+    },
+    "refresh": "Refresh",
+    "@refresh": {
+        "description": "This is the button text to refresh",
+        "type": "string"
+    },
+    "noInternetConnection": "No Internet Connection",
+    "@noInternetConnection": {
+        "description": "This is the message when there is no internet connection",
+        "type": "string"
+    },
+    "pleaseCheckConnection": "Please check your internet connection and try again.",
+    "@pleaseCheckConnection": {
+        "description": "This is the message for checking internet connection",
+        "type": "string"
+    },
+    "noInternetMessage": "No internet connection",
+    "@noInternetMessage": {
+        "description": "This is the message for no internet connection",
+        "type": "string"
+    },
+    "retry": "Retry",
+    "@retry": {
+        "description": "This is the button text to retry",
+        "type": "string"
+    },
+    "reachedStop1": "Reached Stop 1",
+    "@reachedStop1": {
+        "description": "This is the message when the driver has reached a stop",
+        "type": "string"
+    },
+    "reachedStop2": "Reached Stop 2",
+    "@reachedStop2": {
+        "description": "This is the message when the driver has reached a stop",
+        "type": "string"
+    },
+    "reachedStop3": "Reached Stop 3",
+    "@reachedStop3": {
+        "description": "This is the message when the driver has reached a stop",
+        "type": "string"
+    },
+    "deleteAccount": "Delete Account",
+    "@deleteAccount":{
+    "description":"This is about delete account",
+    "type":"string"
+    },
+    "order": "Order",
+        "@order": {
+            "description": "This is the label for order",
+            "type": "string"
+        },
+        "orderType": "Order Type",
+        "@orderType": {
+            "description": "This is the label for order type",
+            "type": "string"
+        },
+        "vehicleType": "Vehicle Type",
+        "@vehicleType": {
+            "description": "This is the label for vehicle type",
+            "type": "string"
+        },
+        "estimatedTime": "Estimated Price",
+        "@estimatedTime": {
+            "description": "This is the label for estimated time",
+            "type": "string"
+        },
+        "date": "Date",
+        "@date": {
+            "description": "This is the label for date",
+            "type": "string"
+        },
+        "time": "Time",
+        "@time": {
+            "description": "This is the label for time",
+            "type": "string"
+        },
+        "driverInformation": "Driver Information",
+        "@driverInformation": {
+            "description": "This is the label for driver information",
+            "type": "string"
+        },
+        "driverName": "Driver Name",
+        "@driverName": {
+            "description": "This is the label for driver name",
+            "type": "string"
+        },
+        "driverContact": "Driver Contact",
+        "@driverContact": {
+            "description": "This is the label for driver contact",
+            "type": "string"
+        },
+        "vehicleNumber": "Vehicle Number",
+        "@vehicleNumber": {
+            "description": "This is the label for vehicle number",
+            "type": "string"
+        },
+        "call": "Call",
+        "@call": {
+            "description": "This is the button text to call the driver",
+            "type": "string"
+        },
+        "remove": "Remove",
+        "@remove": {
+            "description": "This is the button text to remove an item",
+            "type": "string"
+        },
+        "enterCouponCode": "Enter Coupon Code",
+        "@enterCouponCode": {
+            "description": "This is the label for entering a coupon code",
+            "type": "string"
+        },
+        "pleaseEnterACouponCode": "Please enter a coupon code",
+        "@pleaseEnterACouponCode": {
+            "description": "This is the message when no coupon code is entered",
+            "type": "string"
+        },
+        "discountApplied": "Discount Applied",
+        "@discountApplied": {
+            "description": "This is the message when a discount is applied",
+            "type": "string"
+        },
+        "enterThreeCharacters": "Please enter at least 3 characters to search",
+        "@enterThreeCharacters": {
+            "description": "This is the message when less than 3 characters are entered in search",
+            "type": "string"
+        },
+        "goodsPickup": "Your goods will be picked up from here",
+        "@goodsPickup": {
+            "description": "This is the message for goods pickup location",
+            "type": "string"
+        }
+}
