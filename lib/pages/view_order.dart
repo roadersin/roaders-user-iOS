@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:roadersuser/pages/review_booking.dart';
-import 'package:roadersuser/pages/search_location.dart';
-import 'package:roadersuser/services/maps/findDistance.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import './review_booking.dart';
+import './search_location.dart';
+import '../services/maps/findDistance.dart';
+import '../l10n/app_localizations.dart';
 
 class ViewOrder extends StatefulWidget {
   final String type;
