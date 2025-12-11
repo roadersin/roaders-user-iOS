@@ -504,7 +504,7 @@
         "description": "This is the label for the read before you book section",
         "type": "string"
     },
-    "fareDetails": "• Fare doesn't include labour charges for loading & unloading.\n• Fare includes 50 mins free loading/unloading time.\n• ₹3.0/min for additional loading/unloading time.\n• Fare may change if route or location changes.\n• Parking charges to be paid by customer.\n• Fare includes toll and permit charges, if any.\n• We don't allow overloading.",
+    "fareDetails": "• Fare doesn't include labour charges for loading & unloading.\n• Fare includes 50 mins free loading/unloading time.\n• ₹3.0/min for additional loading/unloading time.\n• Fare may change if route or location changes.\n• Parking charges to be paid by customer.\n• Fare includes toll and permit charges, if any.\n• We don't allow overloading. \n• Roaders or our Driver Partners will not be liable for any penalties and issues arising due to your pending paperwork like GST bill, E-Way bill, etc. Customers should provide all necessary documents and bills.",
     "@fareDetails": {
         "description": "This is the detailed breakdown of the fare, including the loading/unloading time, charges, and other conditions."
     },
@@ -1059,93 +1059,93 @@
         "type": "string"
     },
     "deleteAccount": "Delete Account",
-    "@deleteAccount":{
-    "description":"This is about delete account",
-    "type":"string"
+    "@deleteAccount": {
+        "description": "This is about delete account",
+        "type": "string"
     },
     "order": "Order",
-        "@order": {
-            "description": "This is the label for order",
-            "type": "string"
-        },
-        "orderType": "Order Type",
-        "@orderType": {
-            "description": "This is the label for order type",
-            "type": "string"
-        },
-        "vehicleType": "Vehicle Type",
-        "@vehicleType": {
-            "description": "This is the label for vehicle type",
-            "type": "string"
-        },
-        "estimatedTime": "Estimated Price",
-        "@estimatedTime": {
-            "description": "This is the label for estimated time",
-            "type": "string"
-        },
-        "date": "Date",
-        "@date": {
-            "description": "This is the label for date",
-            "type": "string"
-        },
-        "time": "Time",
-        "@time": {
-            "description": "This is the label for time",
-            "type": "string"
-        },
-        "driverInformation": "Driver Information",
-        "@driverInformation": {
-            "description": "This is the label for driver information",
-            "type": "string"
-        },
-        "driverName": "Driver Name",
-        "@driverName": {
-            "description": "This is the label for driver name",
-            "type": "string"
-        },
-        "driverContact": "Driver Contact",
-        "@driverContact": {
-            "description": "This is the label for driver contact",
-            "type": "string"
-        },
-        "vehicleNumber": "Vehicle Number",
-        "@vehicleNumber": {
-            "description": "This is the label for vehicle number",
-            "type": "string"
-        },
-        "call": "Call",
-        "@call": {
-            "description": "This is the button text to call the driver",
-            "type": "string"
-        },
-        "remove": "Remove",
-        "@remove": {
-            "description": "This is the button text to remove an item",
-            "type": "string"
-        },
-        "enterCouponCode": "Enter Coupon Code",
-        "@enterCouponCode": {
-            "description": "This is the label for entering a coupon code",
-            "type": "string"
-        },
-        "pleaseEnterACouponCode": "Please enter a coupon code",
-        "@pleaseEnterACouponCode": {
-            "description": "This is the message when no coupon code is entered",
-            "type": "string"
-        },
-        "discountApplied": "Discount Applied",
-        "@discountApplied": {
-            "description": "This is the message when a discount is applied",
-            "type": "string"
-        },
-        "enterThreeCharacters": "Please enter at least 3 characters to search",
-        "@enterThreeCharacters": {
-            "description": "This is the message when less than 3 characters are entered in search",
-            "type": "string"
-        },
-        "goodsPickup": "Your goods will be picked up from here",
-        "@goodsPickup": {
-            "description": "This is the message for goods pickup location",
-            "type": "string"
-        }
+    "@order": {
+        "description": "This is the label for order",
+        "type": "string"
+    },
+    "orderType": "Order Type",
+    "@orderType": {
+        "description": "This is the label for order type",
+        "type": "string"
+    },
+    "vehicleType": "Vehicle Type",
+    "@vehicleType": {
+        "description": "This is the label for vehicle type",
+        "type": "string"
+    },
+    "estimatedTime": "Estimated Price",
+    "@estimatedTime": {
+        "description": "This is the label for estimated time",
+        "type": "string"
+    },
+    "date": "Date",
+    "@date": {
+        "description": "This is the label for date",
+        "type": "string"
+    },
+    "time": "Time",
+    "@time": {
+        "description": "This is the label for time",
+        "type": "string"
+    },
+    "driverInformation": "Driver Information",
+    "@driverInformation": {
+        "description": "This is the label for driver information",
+        "type": "string"
+    },
+    "driverName": "Driver Name",
+    "@driverName": {
+        "description": "This is the label for driver name",
+        "type": "string"
+    },
+    "driverContact": "Driver Contact",
+    "@driverContact": {
+        "description": "This is the label for driver contact",
+        "type": "string"
+    },
+    "vehicleNumber": "Vehicle Number",
+    "@vehicleNumber": {
+        "description": "This is the label for vehicle number",
+        "type": "string"
+    },
+    "call": "Call",
+    "@call": {
+        "description": "This is the button text to call the driver",
+        "type": "string"
+    },
+    "remove": "Remove",
+    "@remove": {
+        "description": "This is the button text to remove an item",
+        "type": "string"
+    },
+    "enterCouponCode": "Enter Coupon Code",
+    "@enterCouponCode": {
+        "description": "This is the label for entering a coupon code",
+        "type": "string"
+    },
+    "pleaseEnterACouponCode": "Please enter a coupon code",
+    "@pleaseEnterACouponCode": {
+        "description": "This is the message when no coupon code is entered",
+        "type": "string"
+    },
+    "discountApplied": "Discount Applied",
+    "@discountApplied": {
+        "description": "This is the message when a discount is applied",
+        "type": "string"
+    },
+    "enterThreeCharacters": "Please enter at least 3 characters to search",
+    "@enterThreeCharacters": {
+        "description": "This is the message when less than 3 characters are entered in search",
+        "type": "string"
+    },
+    "goodsPickup": "Your goods will be picked up from here",
+    "@goodsPickup": {
+        "description": "This is the message for goods pickup location",
+        "type": "string"
+    }
 }

@@ -1,10 +1,11 @@
-// ignore_for_file: must_be_immutable, non_constant_identifier_names, library_private_types_in_public_api, use_build_context_synchronously, sized_box_for_whitespace, unused_local_variable
+// ignore_for_file: must_be_immutable, non_constant_identifier_names, library_private_types_in_public_api, use_build_context_synchronously, sized_box_for_whitespace, unused_local_variable, prefer_interpolation_to_compose_strings
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import '../l10n/app_localizations.dart';
+import './review_booking.dart';
+import './search_location.dart';
 import '../services/maps/findDistance.dart';
-import 'review_booking.dart';
-import 'search_location.dart';
+import '../l10n/app_localizations.dart';
 
 class ViewOrder extends StatefulWidget {
   final String type;
@@ -140,6 +141,7 @@ class _ViewOrderState extends State<ViewOrder> {
           "Above 100km": {"per km": 0, "per 100 meters": 0}
         },
         "Dimensions": "40 x 40 x 40 cm",
+        "Weight": "20 kg",
       },
       "3-Wheelers": {
         "img": "/vehicles/2.png",
@@ -158,7 +160,8 @@ class _ViewOrderState extends State<ViewOrder> {
         },
         "Notes": "No 3Wheeler to be shown above 100km",
         "Dimensions": "500 kg - 5.5 x 4.5 x 5 ft",
-        "Multiple Stops Charge": 50
+        "Multiple Stops Charge": 50,
+        "Weight": "500 kg"
       },
       "Tata Ace 7ft": {
         "img": "/vehicles/3.png",
@@ -176,7 +179,8 @@ class _ViewOrderState extends State<ViewOrder> {
           "Above 100km": {"per km": 35, "per 100 meters": 3.5}
         },
         "Dimensions": "750 kg - 7 x 4 x 5 ft",
-        "Multiple Stops Charge": 50
+        "Multiple Stops Charge": 50,
+        "Weight": "750 kg"
       },
       "Tata Ace 8ft": {
         "img": "/vehicles/4.png",
@@ -194,7 +198,8 @@ class _ViewOrderState extends State<ViewOrder> {
           "Above 100km": {"per km": 35, "per 100 meters": 3.5}
         },
         "Dimensions": "1000 kg - 8 x 4.5 x 5.5 ft",
-        "Multiple Stops Charge": 50
+        "Multiple Stops Charge": 50,
+        "Weight": "1.25 tons"
       },
       "Pickup 8ft": {
         "img": "/vehicles/5.png",
@@ -212,7 +217,8 @@ class _ViewOrderState extends State<ViewOrder> {
           "Above 100km": {"per km": 40, "per 100 meters": 4}
         },
         "Dimensions": "1250 kg - 8 x 4.5 x 5.5 ft",
-        "Multiple Stops Charge": 50
+        "Multiple Stops Charge": 50,
+        "Weight": "1.7 tons"
       },
 
       "Tata 407": {
@@ -231,7 +237,8 @@ class _ViewOrderState extends State<ViewOrder> {
           "Above 100km": {"per km": 55, "per 100 meters": 5.5}
         },
         "Dimensions": "2500 kg - 10 x 5.5 x 6 ft",
-        "Multiple Stops Charge": 100
+        "Multiple Stops Charge": 100,
+        "Weight": "2.5 tons"
       },
 
       "Tata 14ft": {
@@ -250,7 +257,8 @@ class _ViewOrderState extends State<ViewOrder> {
           "Above 100km": {"per km": 50, "per 100 meters": 5}
         },
         "Dimensions": "3500 kg - 14 x 6 x 6 ft",
-        "Multiple Stops Charge": 100
+        "Multiple Stops Charge": 100,
+        "Weight": "3.5 tons"
       },
 
       // Add other vehicle rates here
@@ -284,7 +292,7 @@ class _ViewOrderState extends State<ViewOrder> {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    vehicle,
+                    "$vehicle (${rates[vehicle]["Weight"]})",
                     style: const TextStyle(
                       fontFamily: "poppins",
                       fontSize: 24.0,
@@ -557,7 +565,7 @@ class _ViewOrderState extends State<ViewOrder> {
                     children: [
                       const SizedBox(
                           width:
-                          8), // Adjust the space between the icon and the text
+                              8), // Adjust the space between the icon and the text
 
                       Text(
                         AppLocalizations.of(context)!.selectVehicle,
@@ -568,7 +576,7 @@ class _ViewOrderState extends State<ViewOrder> {
                       ),
                       const SizedBox(
                           width:
-                          8), // Adjust the space between the icon and the text
+                              8), // Adjust the space between the icon and the text
 
                       const Icon(
                         Icons
@@ -581,63 +589,63 @@ class _ViewOrderState extends State<ViewOrder> {
                   const SizedBox(height: 16),
                   Expanded(
                       child: ListView.builder(
-                        itemCount: vehiclePrices.length,
-                        itemBuilder: (context, index) {
-                          String vehicle = vehiclePrices.keys.elementAt(index);
-                          int? price = vehiclePrices[vehicle];
-                          String? dimensions = vehicleStorage[vehicle];
-                          String imagePath = 'assets/vehicles/$vehicle.png';
+                    itemCount: vehiclePrices.length,
+                    itemBuilder: (context, index) {
+                      String vehicle = vehiclePrices.keys.elementAt(index);
+                      int? price = vehiclePrices[vehicle];
+                      String? dimensions = vehicleStorage[vehicle];
+                      String imagePath = 'assets/vehicles/$vehicle.png';
 
-                          return GestureDetector(
-                            onTap: () => showVehicleModal(
-                                context, vehicle, "", price!, imagePath),
-                            child: Card(
-                              margin: const EdgeInsets.symmetric(
-                                  vertical: 8.0, horizontal: 2.0),
-                              child: Container(
-                                decoration: const BoxDecoration(
-                                  color: Color.fromARGB(255, 246, 246, 246),
-                                  borderRadius: BorderRadius.vertical(
-                                      top: Radius.circular(0.0)),
+                      return GestureDetector(
+                        onTap: () => showVehicleModal(
+                            context, vehicle, "", price!, imagePath),
+                        child: Card(
+                          margin: const EdgeInsets.symmetric(
+                              vertical: 8.0, horizontal: 2.0),
+                          child: Container(
+                            decoration: const BoxDecoration(
+                              color: Color.fromARGB(255, 246, 246, 246),
+                              borderRadius: BorderRadius.vertical(
+                                  top: Radius.circular(0.0)),
+                            ),
+                            child: ListTile(
+                              contentPadding: const EdgeInsets.all(16.0),
+                              leading: Image.asset(
+                                imagePath,
+                                width: 50,
+                                height: 50,
+                                fit: BoxFit.cover,
+                              ),
+                              title: Text(
+                                "$vehicle (${rates[vehicle]["Weight"]})",
+                                style: const TextStyle(
+                                  fontFamily: "poppins",
+                                  fontSize: 15.0,
+                                  fontWeight: FontWeight.w600,
                                 ),
-                                child: ListTile(
-                                  contentPadding: const EdgeInsets.all(16.0),
-                                  leading: Image.asset(
-                                    imagePath,
-                                    width: 50,
-                                    height: 50,
-                                    fit: BoxFit.cover,
-                                  ),
-                                  title: Text(
-                                    vehicle,
-                                    style: const TextStyle(
-                                      fontFamily: "poppins",
-                                      fontSize: 15.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                  ),
-                                  subtitle: Text(
-                                    dimensions!,
-                                    style: const TextStyle(
-                                      fontSize: 12,
-                                      fontFamily: "poppins",
-                                    ),
-                                  ),
-                                  trailing: Text(
-                                    '₹${price.toString()}',
-                                    style: const TextStyle(
-                                      fontFamily: "poppins",
-                                      fontSize: 14.0,
-                                      color: Color.fromARGB(255, 18, 18, 18),
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                  ),
+                              ),
+                              subtitle: Text(
+                                dimensions!,
+                                style: const TextStyle(
+                                  fontSize: 12,
+                                  fontFamily: "poppins",
+                                ),
+                              ),
+                              trailing: Text(
+                                '₹${price.toString()}',
+                                style: const TextStyle(
+                                  fontFamily: "poppins",
+                                  fontSize: 14.0,
+                                  color: Color.fromARGB(255, 18, 18, 18),
+                                  fontWeight: FontWeight.w600,
                                 ),
                               ),
                             ),
-                          );
-                        },
-                      ))
+                          ),
+                        ),
+                      );
+                    },
+                  ))
                 ],
               ),
             );
@@ -731,7 +739,7 @@ class _ViewOrderState extends State<ViewOrder> {
                           child: ListTile(
                             contentPadding: const EdgeInsets.all(16.0),
                             title: Text(
-                              rateKey,
+                              "$rateKey (${rates[vehicle]["Weight"]})",
                               style: const TextStyle(
                                 fontFamily: "Poppins",
                                 fontSize: 15.0,
@@ -782,7 +790,7 @@ class _ViewOrderState extends State<ViewOrder> {
                 fit: BoxFit.cover,
               ),
               title: Text(
-                vehicle,
+                "$vehicle (${rates[vehicle]["Weight"]})",
                 style: const TextStyle(
                   fontFamily: "Poppins",
                   fontSize: 15.0,
@@ -923,7 +931,7 @@ class _ViewOrderState extends State<ViewOrder> {
               child: Container(
                 width: double.infinity,
                 padding:
-                const EdgeInsets.symmetric(horizontal: 10, vertical: 12),
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 12),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
@@ -1006,7 +1014,7 @@ class _ViewOrderState extends State<ViewOrder> {
                           width: 1.0,
                         ),
                         borderRadius:
-                        const BorderRadius.all(Radius.circular(10.0)),
+                            const BorderRadius.all(Radius.circular(10.0)),
                       ),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
@@ -1018,7 +1026,7 @@ class _ViewOrderState extends State<ViewOrder> {
                           ),
                           const SizedBox(
                               width:
-                              5), // Add some space between the icon and text
+                                  5), // Add some space between the icon and text
                           Flexible(
                             child: Container(
                               // padding: EdgeInsets.symmetric(horizontal: 10),
@@ -1080,9 +1088,9 @@ class _ViewOrderState extends State<ViewOrder> {
                             fontWeight: FontWeight.w500,
                             fontFamily: 'poppins',
                             color:
-                            Color.fromARGB(255, 197, 105, 0), // Text color
+                                Color.fromARGB(255, 197, 105, 0), // Text color
                             decoration:
-                            TextDecoration.none, // Remove default underline
+                                TextDecoration.none, // Remove default underline
                           ),
                         ),
                         Positioned(
@@ -1145,7 +1153,7 @@ class _ViewOrderState extends State<ViewOrder> {
                         width: 1.0,
                       ),
                       borderRadius:
-                      const BorderRadius.all(Radius.circular(10.0)),
+                          const BorderRadius.all(Radius.circular(10.0)),
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -1157,12 +1165,12 @@ class _ViewOrderState extends State<ViewOrder> {
                         ),
                         const SizedBox(
                             width:
-                            5), // Add some space between the icon and text
+                                5), // Add some space between the icon and text
                         Flexible(
                           child: Text(
                             widget.dropDescription == ""
                                 ? AppLocalizations.of(context)!
-                                .searchDropLocation
+                                    .searchDropLocation
                                 : widget.dropDescription,
                             style: const TextStyle(
                               color: Colors.black,
@@ -1213,7 +1221,7 @@ class _ViewOrderState extends State<ViewOrder> {
                     ),
                   ),
                   padding:
-                  const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                      const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                 ),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
